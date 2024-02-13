@@ -1,0 +1,69 @@
+<!Doctype html>
+
+{% include "Header.html" %}
+
+<html>
+
+    <head>
+
+
+    </head>
+
+    <body>
+        <div class = "log">
+            
+            <img src= "../static/img/Loginpage.jpg" alt = "indore" width = "100%" height = "100%">
+
+            <div class = "fulllog">
+                
+            
+                <div class = "log1"> 
+
+                    <u>Sign In </u>
+
+                </div>
+
+                <div class = "log2"> 
+                    
+                    <form action = '' method = "Post">
+                        {% csrf_token %}
+                        
+                        <div>
+                            {% for message in messages %}
+    
+                            <h4>{{message}}</h4>
+    
+                            {% endfor %}
+                        </div>
+                        
+                        <h3>User name<h3>
+
+                        <input type = "email" name = "email" placeholder = "Enter the email"/>
+
+                        <h3>Password</h3>
+
+                        <input type = "password" name = "pass" placeholder = "Enter the password"/>
+                        <br>
+                        <br>
+                        <br>
+                        
+                        <button type = "Submit" ><a href = "/Home" target = " ">Sign In</a></button> &nbsp;&nbsp;&nbsp;&nbsp; <button type = "Submit" >Forget Password</button>
+                        <br>
+                        <br>
+                        <h2> Don't have an account? <button onclick = "submit" ><a href = "/Signin" target = " ">Sign Up</a></button>
+
+                    </form>
+
+                </div>
+
+
+
+                <div class = "log3"> TRIPPLANS </div>
+
+
+            </div>
+
+        </div>
+    </body>
+    
+</html>

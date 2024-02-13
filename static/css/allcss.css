@@ -1,0 +1,256 @@
+                                              /*UNIVERSAL TAG*/
+
+
+*{
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+
+                                            
+                                                  /* Header */
+
+
+
+.h1{
+    width: 100%;
+    height: 50px;
+    background-color: powderblue;
+    border: 2px solid black;
+    
+  
+}
+
+.h2{
+    width:5%;
+    height:100%;
+    float: left;
+}
+.h3{
+    width:83%;
+    height:100%;
+    float:left;
+}
+
+
+.h3 ul li{  
+    display: inline;
+    padding: 5px;
+    margin: 82px;
+}
+
+
+.h3 ul li a{ 
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.h4{
+    width:10%;
+    height:100%;
+    float: right;
+    background-color:white;
+
+}
+.btn{
+    width:70%;
+    height:80%;
+    font-size: large;
+    outline: none;
+    cursor: pointer; 
+    margin-top: 5px;
+    float: right;   
+}
+.btn:hover{
+    width:75%;  
+    background-color: gainsboro;
+}
+
+.btn a{
+   text-decoration: none;
+}
+
+
+                                                /* LOGIN PAGE */
+
+
+
+.log{
+    width:100%;
+    height:700px;
+    text-align:center;
+    border: 3px solid #f1f1f1;
+ 
+
+    
+}
+
+.fulllog{
+    width:50%;
+    height: 80%;
+    position:absolute;
+    top:60%;
+    left:50%;
+    right:50%;
+    transform:translate(-50%,-50%);
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border: 3px solid #f1f1f1;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    text-align: center;
+}
+
+
+.log1{
+    width:100%;
+    height:50px;
+    font-weight: bold; 
+    font-size: 10px;
+}
+
+u{
+    font-size: 35px;
+    color: rgb(5, 159, 241);
+
+}
+
+.log2{
+    width:100%;
+    height:400px;
+    text-align:center;
+    
+    
+
+}
+
+.log2 input{
+    width:50%;
+    height:30px;
+    text-align:center;
+}
+
+.log2 input:hover{
+    width:55%;
+    
+
+}
+
+.log3{
+    width:100%;
+    height:50px;
+    
+}
+
+.log2 button{
+    height:30px;
+    text-align:center;
+    cursor: pointer;
+    font-size: small;
+}
+
+.log2 button:hover{
+    width: 120px;
+    background-color: gainsboro;
+}
+
+
+.log2 button a{
+    height:30px;
+    text-align:center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.log2 button a:hover{
+    height:40px;
+    text-align:center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+                                    /*Sign UP Page*/
+
+
+
+.sign{
+    width:100%;
+    height:700px;
+    text-align:center;
+    border: 3px solid #f1f1f1;
+ 
+
+    
+}
+
+.fullsign{
+    width:50%;
+    height: 90%;
+    position:absolute;
+    top:55%;
+    left:50%;
+    right:50%;
+    transform:translate(-50%,-50%);
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border: 3px solid #f1f1f1;
+    background-color: rgba(0,0,0, 0.4);
+    text-align: center;
+}
+
+
+.sign1{
+    width:100%;
+    height:50px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+u{
+    font-size: 35px;
+    color: rgb(5, 159, 241);
+
+}
+
+.sign2{
+    width:100%;
+    position: absolute;
+    text-align:center;
+    top: 100px;
+
+}
+
+.sign2 input{
+    width:45%;
+    height:40px;
+    text-align:center;
+    font-size: 150%;
+
+}
+.sign2 input:hover{
+    width:55%;
+
+}
+
+.sign2 button{
+    height:30px;
+    text-align:center;
+}
+
+.sign2 button:hover{
+    width: 80px;
+    background-color: gainsboro;
+}
+
+.creatbtn a{
+    text-decoration: none;
+}
+
+
+
